@@ -14,8 +14,8 @@ TravelNow es una plataforma que permite a los huéspedes de una cadena hotelera 
 | Trabajo práctico | Diagrama | Relación con el sistema |
 |------------------|----------|-------------------------|
 | TPE1 | Diagrama de casos de uso | Define los actores y las funcionalidades principales del sistema. Es la base de los diagramas del TPE2. |
-| TPE2 | Diagrama de secuencia | Muestra el orden temporal de los mensajes entre actores y objetos en [proceso modelado]. |
-| TPE2 | Diagrama de comunicación | Muestra la interacción entre los mismos objetos en [proceso modelado], enfatizando sus relaciones. |
+| TPE2 | Diagrama de secuencia | Muestra el orden temporal de los mensajes entre actores y objetos en el caso de uso CU-02 Realizar reserva. |
+| TPE2 | Diagrama de comunicación | Muestra la interacción entre los mismos objetos en el caso de uso CU-02 Realizar reserva, enfatizando sus relaciones. |
 
 Los tres diagramas corresponden al mismo caso de estudio y mantienen coherencia entre actores, procesos e interacciones.
 
@@ -24,11 +24,11 @@ Los tres diagramas corresponden al mismo caso de estudio y mantienen coherencia 
 ```
 ModelamientoSoftware_CP1/
 ├── TPE1/
-│   ├── Editables/      # Archivos editables (.vsdx)
-│   └── Exportados/     # Diagramas en PNG o PDF
+│   ├── Editables/      # Archivos editables (.drawio)
+│   └── Exportados/     # Diagramas en PNG
 ├── TPE2/
-│   ├── Editables/      # Archivos editables (.vsdx)
-│   └── Exportados/     # Diagramas en PNG o PDF
+│   ├── Editables/      # Archivos editables (.drawio)
+│   └── Exportados/     # Diagramas en PNG
 └── README.md
 ```
 
